@@ -7,6 +7,7 @@ git clone git@github.com:meetrajesh/apple_weather_app.git
 cd apple_weather_app
 brew install redis
 brew services start redis
+vi .env # update OpenWeather API key here
 bundle install
 rails server -p 3000
 ```
