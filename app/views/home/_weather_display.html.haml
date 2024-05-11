@@ -1,0 +1,11 @@
+%h1.mb-3 Weather Details
+- if @weather_data&.[]('error')
+  %p Error: #{@weather_data['message']}
+- elsif @weather_data&.[]('temp')
+  %p Current Temperature: #{@weather_data['temp']}°F
+  %p High: #{@weather_data['high']}°F
+  %p Low: #{@weather_data['low']}°F
+  %p Description: #{@weather_data['description']}
+  %p Fetched/Cached: #{@weather_data['fetch_time']}
+- else
+  %p No weather data available.

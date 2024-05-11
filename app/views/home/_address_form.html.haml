@@ -1,0 +1,4 @@
+%h1.mb-3 Weather Form
+%form{action: "/get_weather", method: "get", class: "input-group mb-3"}
+  %input.form-control{name: "address", type: "text", style: "width:200px", value: params&.[](:address) || "San Francisco, CA, 94105"}
+  %button.btn.btn-primary{type: "submit"} Get Weather
