@@ -13,6 +13,14 @@ rails server -p 3000
 
 Then navigate to http://127.0.0.1:3000/
 
+## Tests/Specs
+
+```
+cd apple_weather_app
+bundle install
+bundle exec rspec
+```
+
 ## Screenshots
 
 Initial Screen:
