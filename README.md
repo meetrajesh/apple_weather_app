@@ -23,11 +23,4 @@ bundle exec rspec
 
 ## Screenshots
 
-Initial Screen:
-
-![image](https://github.com/meetrajesh/apple_weather_app/assets/101797/056ab082-ea68-4cb9-9498-21dca4692894)
-
-After hitting submit:
-
-![image](https://github.com/meetrajesh/apple_weather_app/assets/101797/b143dcb1-aa3d-45a7-9079-16c9a671ba8b)
-
+![image](https://github.com/meetrajesh/apple_weather_app/assets/101797/7e559553-08b8-43da-bc34-8ed07c1aa25f)
