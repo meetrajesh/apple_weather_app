@@ -8,7 +8,7 @@ class OpenWeatherService
     def weather_for_given_address(address)
       address.strip!
       zip_code = address.match(/(, )?([0-9]{5})$/)&.[](2)
-      cache_key = zip_code.present? ? zip_code : address
+      cache_key = (zip_code.present? ? zip_code : address).downcase
 
       # check redis cache first
       cached_response = REDIS.get(cache_key)
