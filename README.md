@@ -1,24 +1,25 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## How to run app
 
-Things you may want to cover:
+```
+git clone git@github.com:meetrajesh/apple_weather_app.git
+cd apple_weather_app
+brew install redis
+brew services start redis
+bundle install
+rails server -p 3000
+```
 
-* Ruby version
+Then navigate to http://127.0.0.1:3000/
 
-* System dependencies
+## Screenshots
 
-* Configuration
+Initial Screen:
 
-* Database creation
+![image](https://github.com/meetrajesh/apple_weather_app/assets/101797/056ab082-ea68-4cb9-9498-21dca4692894)
 
-* Database initialization
+After hitting submit:
 
-* How to run the test suite
+![image](https://github.com/meetrajesh/apple_weather_app/assets/101797/b143dcb1-aa3d-45a7-9079-16c9a671ba8b)
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
